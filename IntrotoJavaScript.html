@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>IntroToJavaScript</title>
+</head>
+<body>
+    <h1 id="myP"></h1>
+    <h2 id="myA"></h2>
+    
+    <script>
+        // my heading:
+        document.getElementById("myP").innerHTML=" Javascript Comments";
+        // my paragraph:
+        document.getElementById("myA").innerHTML="This is my first paragraph"
+    </script>
+    <h1>Javascript Variables</h1>
+    <p>Sum of two Numbers</p>
+    <p id="result"></p>
+    <script>
+        var num1 = 5;
+        var num2 = 9;
+        var sum = num1 + num2
+        document.getElementById("result").innerHTML="The total sum is :"+ sum;
+    </script>
+    <!--Addition-->
+    <h2>Operator</h2>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <script>
+        var x=20;
+        var y=5;
+        var z= x+y;
+        var a=x-y;
+        var b = x*y;
+        var c=x/y;
+        var d=x ** y;
+        document.getElementById("demo").innerHTML = z;
+        document.getElementById("demo1").innerHTML = a;
+        document.getElementById("demo2").innerHTML = b;
+        document.getElementById("demo3").innerHTML = c;
+        document.getElementById("demo4").innerHTML = d;
+
+    </script>
+</body>
+</html>
